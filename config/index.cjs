@@ -27,13 +27,12 @@ const USER_CONFIG = {
       // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
       horoscopeDate: '08-07',
       festivals: [
-        // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
-        {
-          type: '*生日', name: '涛', year: '1994', date: '03-09',
-        },
         // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
         {
           type: '生日', name: '唯君', year: '1995', date: '08-07',
+        },
+        {
+          type: '生日', name: '涛', year: '1994', date: '04-19',
         },
         {
           type: '节日', name: '相识纪念日', year: '2023', date: '03-26',
@@ -57,7 +56,7 @@ const USER_CONFIG = {
     {
       name: '自己',
       // 使用微信测试号：自己的微信id，扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: 'gh_47663a53ef3a',
+      id: 'wxid_x26sot9vshyn22',
     }
   ],
 
